@@ -113,24 +113,7 @@
                         <p class="project-description">A Pokémon-inspired RPG prototype built with a team, featuring
                             summon companions and creature battles.</p>
                     </article>
-                    <article class="project-card reveal">
-                        <a class="project-visual game-visual" href="https://kaleighlasorsa.itch.io/bee-platformer" target="_blank" rel="noreferrer">
-                            <span class="visual-label"></span>
-                            <div class="game-window">
-                                <div class="game-top"><i></i><i></i><i></i><span>Bee Platformer</span></div>
-                                <div class="pixel-sun"></div>
-                                <div class="pixel-grass"></div><span class="pixel-bee">◆</span><span
-                                    class="game-prompt"></span>
-                            </div><span class="visual-arrow"> ↗</span>
-                        </a>
-                        <div class="project-info">
-                            <div>
-                                <p class="project-type">PLATFORMER · SOLO PROJECT</p>
-                                <h3>Bee Platformer</h3>
-                            </div><span class="project-number">02</span>
-                        </div>
-                        <p class="project-description">A platformer game built on Construct 3, playing as a bee collecting honey to bring back to the hive.</p>
-                    </article>
+ 
                     <article class="project-card reveal">
                         <a class="project-visual identity-visual" href="projects.html"
                             aria-label="View graphic design and identity work">
@@ -138,6 +121,254 @@
                             <div class="identity-paper"><span>KML</span><b>FORM<br>MEETS<br>FEELING.</b><i>Creative
                                     identity study — 2026</i></div><span class="visual-arrow">↗</span>
                         </a>
+                        
+<article class="project-card bee-project">
+  <a href="https://kaleighlasorsa.itch.io/bee-platformer" class="project-link">
+    <div class="bee-preview">
+      <div class="pixel-cloud cloud-a"></div>
+      <div class="pixel-cloud cloud-b"></div>
+      <div class="pixel-cloud cloud-c"></div>
+      <div class="pixel-cloud cloud-d"></div>
+
+      <div class="pixel-honey honey-a">✿</div>
+      <div class="pixel-honey honey-b">✿</div>
+
+      <div class="pixel-tree">
+        <div class="tree-leaves"></div>
+        <div class="tree-trunk"></div>
+      </div>
+
+      <div class="pixel-bee">
+        <span class="bee-stripes"></span>
+        <span class="bee-face"></span>
+        <span class="bee-wing"></span>
+      </div>
+
+      <div class="pixel-grass"></div>
+      <div class="pixel-dirt"></div>
+
+      <span class="pixel-play">▶ PLAY GAME</span>
+    </div>
+
+    <div class="project-info">
+      <p class="project-category">CONSTRUCT 3 · PIXEL PLATFORMER</p>
+      <h3>Bee Platformer</h3>
+      <p>
+        Explore a pixel-art world, jump across the meadow,
+        and collect honey as a tiny bee.
+      </p>
+      <span class="project-cta">View Project ↗</span>
+    </div>
+  </a>
+</article>
+
+<style>
+.bee-project {
+  overflow: hidden;
+  border: 1px solid #d4e3dc;
+  border-radius: 12px;
+  background: #fff;
+  transition: transform .2s ease;
+}
+
+.bee-project:hover {
+  transform: translateY(-4px);
+}
+
+.project-link {
+  display: block;
+  color: inherit;
+  text-decoration: none;
+}
+
+.bee-preview {
+  height: 230px;
+  position: relative;
+  overflow: hidden;
+  background: #08bdc4;
+  image-rendering: pixelated;
+}
+
+.pixel-cloud {
+  position: absolute;
+  height: 26px;
+  background: #f7fff9;
+  box-shadow: 10px -14px 0 -1px #f7fff9,
+              27px -14px 0 -1px #f7fff9,
+              40px 0 0 #f7fff9;
+}
+
+.cloud-a { left: 3%; top: 50px; width: 45px; }
+.cloud-b { left: 36%; top: 50px; width: 45px; }
+.cloud-c { left: 66%; top: 50px; width: 52px; }
+.cloud-d { left: 40%; top: 137px; width: 40px; transform: scale(.85); }
+
+.pixel-grass {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 50px;
+  height: 45px;
+  background-color: #278d16;
+  background-image:
+    linear-gradient(90deg, transparent 50%, #12680d 50%),
+    linear-gradient(#40a51b 50%, transparent 50%);
+  background-size: 18px 13px, 25px 17px;
+  border-top: 6px solid #147a13;
+}
+
+.pixel-dirt {
+  position: absolute;
+  bottom: 0;
+  height: 53px;
+  width: 100%;
+  background-color: #985000;
+  background-image:
+    linear-gradient(90deg, #6d3900 5px, transparent 5px),
+    linear-gradient(#b36a12 4px, transparent 4px),
+    linear-gradient(90deg, transparent 60%, #754000 60%);
+  background-size: 30px 20px, 37px 17px, 45px 25px;
+  border-top: 5px solid #704000;
+}
+
+.pixel-tree {
+  position: absolute;
+  right: 6%;
+  bottom: 95px;
+  width: 45px;
+  height: 90px;
+}
+
+.tree-trunk {
+  position: absolute;
+  width: 15px;
+  height: 49px;
+  bottom: -45px;
+  left: 15px;
+  background: repeating-linear-gradient(
+    90deg, #7b420a 0 6px, #a96a16 6px 11px
+  );
+}
+
+.tree-leaves {
+  position: absolute;
+  left: -20px;
+  top: 0;
+  width: 85px;
+  height: 45px;
+  background: #087d08;
+  box-shadow:
+    -8px 13px 0 #08a10b,
+    0 20px 0 #066e05,
+    12px -8px 0 #087d08,
+    15px 10px 0 #0c8b08;
+}
+
+.pixel-bee {
+  position: absolute;
+  z-index: 4;
+  left: 10%;
+  bottom: 91px;
+  width: 35px;
+  height: 31px;
+  background: #ffd72e;
+  border: 3px solid #302719;
+  box-sizing: border-box;
+  box-shadow: 5px 0 0 #302719;
+  animation: bee-hop 1.8s steps(4, end) infinite;
+}
+
+.bee-stripes {
+  position: absolute;
+  inset: 0;
+  background: repeating-linear-gradient(
+    90deg, transparent 0 7px, #302719 7px 12px
+  );
+}
+
+.bee-face {
+  position: absolute;
+  right: -4px;
+  top: 3px;
+  width: 5px;
+  height: 5px;
+  background: #fff;
+  box-shadow: 2px 1px 0 #302719;
+}
+
+.bee-wing {
+  position: absolute;
+  width: 11px;
+  height: 9px;
+  left: 7px;
+  top: -10px;
+  background: #e6ffff;
+  border: 2px solid #333;
+}
+
+.pixel-honey {
+  position: absolute;
+  z-index: 3;
+  color: #ffda2f;
+  font-size: 28px;
+  text-shadow: 2px 2px #ba8a00;
+  image-rendering: pixelated;
+}
+
+.honey-a { left: 57%; top: 63px; }
+.honey-b { right: 18%; top: 4px; }
+
+.pixel-play {
+  position: absolute;
+  z-index: 8;
+  top: 12px;
+  right: 12px;
+  padding: 8px 10px;
+  background: #123c18;
+  color: white;
+  border: 2px solid #72d64b;
+  font: bold 10px monospace;
+  opacity: 0;
+  transition: opacity .2s;
+}
+
+.bee-project:hover .pixel-play {
+  opacity: 1;
+}
+
+.project-info {
+  padding: 20px;
+}
+
+.project-category {
+  color: #238447;
+  font: bold 10px monospace;
+  letter-spacing: 1px;
+}
+
+.project-info h3 {
+  margin: 8px 0;
+}
+
+.project-info p {
+  line-height: 1.6;
+}
+
+.project-cta {
+  color: #238447;
+  font-weight: bold;
+}
+
+@keyframes bee-hop {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-12px); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .pixel-bee { animation: none; }
+}
+</style>
+
                         <div class="project-info">
                             <div>
                                 <p class="project-type">VISUAL COMMUNICATION</p>
