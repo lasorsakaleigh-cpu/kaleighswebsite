@@ -553,7 +553,7 @@ button:focus-visible {
     inset: 60px 22px 24px;
     background: #222b31;
     border: 4px solid #34434b;
-    box-shadow: 8px 8px 0 #a3cb4e;
+    box-shadow: 8px 8px 0 #f0f1ee;
     overflow: hidden
 }
 
