@@ -597,7 +597,14 @@ button:focus-visible {
     height: 34%;
     background: repeating-linear-gradient(90deg, #587e54 0 18px, #486c49 18px 36px)
 }
-
+.pixel-grass {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 34%;
+    background: solid(90deg, #5bca4f 0 18px, #54e458 18px 36px)
+}
 .pixel-creature {
     position: absolute;
     bottom: 26%;
@@ -605,6 +612,14 @@ button:focus-visible {
     font-size: 45px;
     color: #c0a5ff;
     text-shadow: 5px 4px #765fc7
+}
+.pixel-bee {
+    position: absolute;
+    bottom: 26%;
+    left: 36%;
+    font-size: 45px;
+    color: #f7d979;
+    text-shadow: 5px 4px #c9f36b
 }
 
 .game-prompt {
