@@ -81,8 +81,8 @@
                         <a class="project-visual story-visual" href="animations/storybook/IfYouGiveAMouseACookie.html"
                             aria-label="View Interactive Storybook project">
                             <span class="visual-label"></span>
-                            <div class="storybook-shape"><span>If you<br>give a mouse<br><i>a cookie.</i></span><b>✦</b></div><span
-                                class="visual-arrow"> ↗</span>
+                            <div class="storybook-shape"><span>If you<br>give a mouse<br><i>a cookie.</i></span><b>✦</b>
+                            </div><span class="visual-arrow"> ↗</span>
                         </a>
                         <div class="project-info">
                             <div>
@@ -90,8 +90,9 @@
                                 <h3>Interactive Storybook</h3>
                             </div><span class="project-number">01</span>
                         </div>
-                        <p class="project-description">An interactive children's story inspired by <i>If You Give a Mouse a Cookie</i>. I created the
-                        artwork and designed the interactive elements.</p>
+                        <p class="project-description">An interactive children's story inspired by <i>If You Give a
+                                Mouse a Cookie</i>. I created the
+                            artwork and designed the interactive elements.</p>
                     </article>
                     <article class="project-card reveal">
                         <a class="project-visual game-visual" href="spirit summoner/game.html" target="_blank"
@@ -113,15 +114,19 @@
                         <p class="project-description">A Pokémon-inspired RPG prototype built with a team, featuring
                             summon companions and creature battles.</p>
                     </article>
-    <article class="project-card reveal">
-                        <a class="project-visual game-visual" href="https://kaleighlasorsa.itch.io/bee-platformer" target="_blank"
-                            rel="noreferrer" aria-label="Watch Spirit Summoner project video">
+                    <article class="project-card reveal">
+                        <a class="project-visual game-visual" href="https://kaleighlasorsa.itch.io/bee-platformer"
+                            target="_blank" rel="noreferrer" aria-label="Watch Spirit Summoner project video">
                             <span class="visual-label"></span>
                             <div class="game-window">
                                 <div class="game-window-top"><span>Bee Platformer</span></div>
                                 <div class="pixel-sun"></div>
-                                <div class="pixel-grass"></div><span class="pixel-creature">◆</span><span
-                                    class="game-prompt"></span>
+                                <div class="pixel-grass"></div>
+                                <div class="pixel-bee">
+                                    <span class="bee-stripes"></span>
+                                    <span class="bee-face"></span>
+                                    <span class="bee-wing"></span>
+                                </div><span class="game-prompt"></span>
                             </div><span class="visual-arrow"> ↗</span>
                         </a>
                         <div class="project-info">
@@ -130,7 +135,8 @@
                                 <h3>Bee Platformer</h3>
                             </div><span class="project-number">03</span>
                         </div>
-                        <p class="project-description">A platformer game with a bee navigating to collect honey for the hive.</p>
+                        <p class="project-description">A platformer game with a bee navigating to collect honey for the
+                            hive.</p>
                     </article>
                     <style>
                         .pixel-grass {
@@ -139,10 +145,50 @@
                             left: 0;
                             right: 0;
                             height: 34%;
-                         background-color: #278d16;
-                         background-image:linear-gradient(90deg, transparent 50%, #12680d 50%), linear-gradient(#40a51b 50%, transparent 50%);
-                         background-size: 18px 13px, 25px 17px;
-                         border-top: 6px solid #147a13
+                            background-color: #278d16;
+                            background-image: linear-gradient(90deg, transparent 50%, #12680d 50%), linear-gradient(#40a51b 50%, transparent 50%);
+                            background-size: 18px 13px, 25px 17px;
+                            border-top: 6px solid #147a13
+                        }
+
+                        .pixel-bee {
+                            position: absolute;
+                            z-index: 4;
+                            left: 10%;
+                            bottom: 91px;
+                            width: 35px;
+                            height: 31px;
+                            background: #ffd72e;
+                            border: 3px solid #302719;
+                            box-sizing: border-box;
+                            box-shadow: 5px 0 0 #302719;
+                            animation: bee-hop 1.8s steps(4, end) infinite;
+                        }
+
+                        .bee-stripes {
+                            position: absolute;
+                            inset: 0;
+                            background: repeating-linear-gradient(90deg, transparent 0 7px, #302719 7px 12px);
+                        }
+
+                        .bee-face {
+                            position: absolute;
+                            right: -4px;
+                            top: 3px;
+                            width: 5px;
+                            height: 5px;
+                            background: #fff;
+                            box-shadow: 2px 1px 0 #302719;
+                        }
+
+                        .bee-wing {
+                            position: absolute;
+                            width: 11px;
+                            height: 9px;
+                            left: 7px;
+                            top: -10px;
+                            background: #e6ffff;
+                            border: 2px solid #333;
                         }
                     </style>
                     <article class="project-card reveal">
@@ -152,7 +198,7 @@
                             <div class="identity-paper"><span>KML</span><b>FORM<br>MEETS<br>FEELING.</b><i>Creative
                                     identity study — 2026</i></div><span class="visual-arrow">↗</span>
                         </a>
-                        
+
                         <div class="project-info">
                             <div>
                                 <p class="project-type">VISUAL COMMUNICATION</p>
